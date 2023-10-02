@@ -6,6 +6,69 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SoalNo4C",
+            "request": "launch",
+            "mainClass": "SoalNo4C",
+            "projectName": "Java Project Latihan dan Percobaan Bab 6_2dee74e8"
+        },
+        {
+            "type": "java",
+            "name": "SoalNo4B",
+            "request": "launch",
+            "mainClass": "SoalNo4B",
+            "projectName": "Java Project Latihan dan Percobaan Bab 6_2dee74e8"
+        },
+        {
+            "type": "java",
+            "name": "SoalNo4A",
+            "request": "launch",
+            "mainClass": "SoalNo4A",
+            "projectName": "Java Project Latihan dan Percobaan Bab 6_2dee74e8"
+        },
+        {
+            "type": "java",
+            "name": "SoalNo3C",
+            "request": "launch",
+            "mainClass": "SoalNo3C",
+            "projectName": "Java Project Latihan dan Percobaan Bab 6_2dee74e8"
+        },
+        {
+            "type": "java",
+            "name": "SoalNo3B",
+            "request": "launch",
+            "mainClass": "SoalNo3B",
+            "projectName": "Java Project Latihan dan Percobaan Bab 6_2dee74e8"
+        },
+        {
+            "type": "java",
+            "name": "SoalNo3A",
+            "request": "launch",
+            "mainClass": "SoalNo3A",
+            "projectName": "Java Project Latihan dan Percobaan Bab 6_2dee74e8"
+        },
+        {
+            "type": "java",
+            "name": "SoalNo2B",
+            "request": "launch",
+            "mainClass": "SoalNo2B",
+            "projectName": "Java Project Latihan dan Percobaan Bab 6_2dee74e8"
+        },
+        {
+            "type": "java",
+            "name": "SoalNo2A",
+            "request": "launch",
+            "mainClass": "SoalNo2A",
+            "projectName": "Java Project Latihan dan Percobaan Bab 6_2dee74e8"
+        },
+        {
+            "type": "java",
+            "name": "SoalNo2",
+            "request": "launch",
+            "mainClass": "SoalNo2",
+            "projectName": "Java Project Latihan dan Percobaan Bab 6_2dee74e8"
+        },
+        {
+            "type": "java",
             "name": "SoalNo1B",
             "request": "launch",
             "mainClass": "SoalNo1B",
