@@ -8,10 +8,11 @@ public class Soal1 {
 
         private String nama;
         private String alamat;
-        private int telepon;
+        private String telepon;
         private String email;
 
-        public BukuAlamat(String nama, String alamat, int telepon, String email) {
+        // ini adalah constructor dari class Buku Alamat.
+        public BukuAlamat(String nama, String alamat, String telepon, String email) {
             this.nama = nama;
             this.alamat = alamat;
             this.telepon = telepon;
@@ -26,7 +27,7 @@ public class Soal1 {
             return alamat;
         }
 
-        public int getTelepon() { // ini adalah accessor Method untuk membaca telepon
+        public String getTelepon() { // ini adalah accessor Method untuk membaca telepon
             return telepon;
         }
 
@@ -42,15 +43,14 @@ public class Soal1 {
             this.alamat = alamat;
         }
 
-        public void setTelepon(int telepon) { // ini adalah Mutator method untuk mengubah nomor telepon
+        public void setTelepon(String telepon) { // ini adalah Mutator method untuk mengubah nomor telepon
             this.telepon = telepon;
         }
 
         public void setEmail(String email) { // ini adalah Mutator method untuk mengubah email
             this.email = email; 
         }
-
-        @Override
+        
         public String toString() {
             return "Nama: " + nama + "\nAlamat: " + alamat + "\nTelepon: " + telepon + "\nEmail: " + email;
         }
@@ -81,7 +81,7 @@ public class Soal1 {
                         System.out.print("Masukkan alamat: ");
                         String alamat = dataIn.readLine();
                         System.out.print("Masukkan nomor telepon: ");
-                        int telepon = Integer.parseInt(dataIn.readLine());
+                        String telepon = dataIn.readLine();
                         System.out.print("Masukkan email: ");
                         String email = dataIn.readLine();
 
@@ -100,6 +100,7 @@ public class Soal1 {
                     boolean ditemukanHapus = false;
 
                     for (int i = 0; i < jumlahBukuAlamat; i++) {
+                        // membandingkan nama dari inputan dengan nama yang di daftar buku
                         if (daftarBukuAlamat[i] != null && daftarBukuAlamat[i].getNama().equalsIgnoreCase(namaHapus)) {
                             daftarBukuAlamat[i] = null;
                             ditemukanHapus = true;
@@ -129,13 +130,13 @@ public class Soal1 {
                     String namaUpdate = dataIn.readLine();
 
                     boolean ditemukanUpdate = false;
-
                     for (int i = 0; i < jumlahBukuAlamat; i++) {
+                        // membandingkan nama dari inputan dengan nama yang di daftar buku
                         if (daftarBukuAlamat[i] != null && daftarBukuAlamat[i].getNama().equalsIgnoreCase(namaUpdate)) {
                             System.out.print("Masukkan alamat baru: ");
                             String alamatBaru = dataIn.readLine();
                             System.out.print("Masukkan nomor telepon baru: ");
-                            int teleponBaru = Integer.parseInt(dataIn.readLine());
+                            String teleponBaru = dataIn.readLine();
                             System.out.print("Masukkan email baru: ");
                             String emailBaru = dataIn.readLine();
 
