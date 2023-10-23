@@ -69,8 +69,7 @@ public class ClassPenjumlahan {
         Penjumlahan.pertambahan();
         
         //Menampilkan nilai pada penjumlahan
-        System.out.println(Penjumlahan.getNilaiA());
-        System.out.println(Penjumlahan.getNilaiB());
-        System.out.println(Penjumlahan.getTambah());
+        
+        System.out.println(Penjumlahan.tampilkan());
     }
 }
